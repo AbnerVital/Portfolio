@@ -1,25 +1,29 @@
-*{
+/* Resetando margens e preenchimentos de todos os elementos para evitar inconsistências entre navegadores */
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+/* Configuração global do body */
+body {
+    height: 100vh; /* Define a altura do body como 100% da altura da tela */
+    box-sizing: border-box; /* Faz com que padding e borda sejam incluídos no cálculo do tamanho do elemento */
+    background-color: #000000; /* Define o fundo da página como preto */
+    color: #F6F6F6; /* Define a cor padrão do texto como branco acinzentado */
 }
 
-.titulo-destaque{
-    color: #22D4FD
+/* Estilizando títulos de destaque */
+.titulo-destaque {
+    color: #22D4FD; /* Define a cor do texto como azul claro */
 }
 
-.texto-destaque{
-    color: red;
+/* Estilizando textos que precisam de destaque */
+.texto-destaque {
+    color: red; /* Define a cor do texto como vermelho */
 }
 
-.apresentacao{
-    display:flex;
-    align-items: center;
+/* Estilizando a seção de apresentação */
+.apresentacao {
+    display: flex; /* Ativa o modelo de layout flexível (Flexbox) */
+    align-items: center; /* Centraliza os elementos filhos verticalmente */
 }
-
