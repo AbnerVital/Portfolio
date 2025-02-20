@@ -26,4 +26,6 @@ body {
 .apresentacao {
     display: flex; /* Ativa o modelo de layout flexível (Flexbox) */
     align-items: center; /* Centraliza os elementos filhos verticalmente */
+    justify-content: space-between;
+    margin: 10%;
 }
