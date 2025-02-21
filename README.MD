@@ -34,7 +34,7 @@ Projeto criado para demonstrar habilidades de desenvolvimento Front-end com um l
 ## 🛠 Como Rodar o Projeto
 1. **Baixe ou clone** este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/portfolio.git
+   git clone https://github.com/AbnerVital/Portfolio.git
    ```
 2. **Abra o arquivo `index.html`** no navegador.
 
