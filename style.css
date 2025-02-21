@@ -22,7 +22,7 @@ body{
 
 /* Estilizando a seção de apresentação */
 .apresentacao{
-    margin: 10%; /* Adiciona uma margem de 10% ao redor do elemento, afastando-o das bordas da tela */
+    margin: 10% 15%; /* Adiciona uma margem de 10% ao redor do elemento, afastando-o das bordas da tela */
     display: flex; /* Aplica o modelo de layout Flexbox, permitindo melhor organização dos elementos filhos */
     align-items: center; /* Alinha os elementos filhos verticalmente ao centro */
     justify-content: space-between; /* Distribui os elementos filhos com espaço entre eles */
@@ -31,6 +31,9 @@ body{
 /* Estiliza o contêiner de conteúdo dentro da seção de apresentação */
 .apresentacao__conteudo{
     width: 615px; /* Define a largura do elemento como 615 pixels */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 /* Estiliza o título dentro da seção de apresentação */
