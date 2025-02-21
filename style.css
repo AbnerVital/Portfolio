@@ -1,31 +1,66 @@
+/* Importa as fontes "Krona One" e "Montserrat" do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Resetando margens e preenchimentos de todos os elementos para evitar inconsistências entre navegadores */
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
 }
 
 /* Configuração global do body */
-body {
-    height: 100vh; /* Define a altura do body como 100% da altura da tela */
-    box-sizing: border-box; /* Faz com que padding e borda sejam incluídos no cálculo do tamanho do elemento */
-    background-color: #000000; /* Define o fundo da página como preto */
-    color: #F6F6F6; /* Define a cor padrão do texto como branco acinzentado */
+body{
+    height: 100vh; /* Define a altura do body como 100% da altura da tela do dispositivo */
+    box-sizing: border-box; /* Faz com que a largura e altura do elemento incluam padding e borda no cálculo total */
+    background-color: #000000; /* Define a cor de fundo da página como preto */
+    color: #F6F6F6; /* Define a cor do texto como um tom de branco acinzentado */
 }
 
-/* Estilizando títulos de destaque */
-.titulo-destaque {
+/* Estiliza os títulos que possuem a classe "titulo-destaque" */
+.titulo-destaque{
     color: #22D4FD; /* Define a cor do texto como azul claro */
 }
 
-/* Estilizando textos que precisam de destaque */
-.texto-destaque {
-    color: red; /* Define a cor do texto como vermelho */
+/* Estilizando a seção de apresentação */
+.apresentacao{
+    margin: 10%; /* Adiciona uma margem de 10% ao redor do elemento, afastando-o das bordas da tela */
+    display: flex; /* Aplica o modelo de layout Flexbox, permitindo melhor organização dos elementos filhos */
+    align-items: center; /* Alinha os elementos filhos verticalmente ao centro */
+    justify-content: space-between; /* Distribui os elementos filhos com espaço entre eles */
 }
 
-/* Estilizando a seção de apresentação */
-.apresentacao {
-    display: flex; /* Ativa o modelo de layout flexível (Flexbox) */
-    align-items: center; /* Centraliza os elementos filhos verticalmente */
+/* Estiliza o contêiner de conteúdo dentro da seção de apresentação */
+.apresentacao__conteudo{
+    width: 615px; /* Define a largura do elemento como 615 pixels */
+}
+
+/* Estiliza o título dentro da seção de apresentação */
+.apresentacao__conteudo__titulo{
+    font-size: 36px; /* Define o tamanho da fonte do título para 36 pixels */
+    font-family: 'Krona One', sans-serif; /* Aplica a fonte "Krona One" ao título, garantindo um estilo mais destacado */
+}
+
+/* Estiliza o texto dentro da seção de apresentação */
+.apresentacao__conteudo__texto{
+    font-size: 24px; /* Define o tamanho da fonte do parágrafo para 24 pixels */
+    font-family: 'Montserrat', sans-serif; /* Aplica a fonte "Montserrat" ao parágrafo, tornando a leitura mais fluida */
+    font-weight: 400;
+}
+
+.apresentacao__links{
+    display: flex;
     justify-content: space-between;
-    margin: 10%;
+}
+
+.apresentacao__links__link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+
 }
