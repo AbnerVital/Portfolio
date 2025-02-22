@@ -9,7 +9,7 @@
 
 /* Configuração global do body */
 body{
-    height: 100vh; /* Define a altura do body como 100% da altura da tela do dispositivo */
+    /* height: 100vh; Define a altura do body como 100% da altura da tela do dispositivo */
     box-sizing: border-box; /* Faz com que a largura e altura do elemento incluam padding e borda no cálculo total */
     background-color: #000000; /* Define a cor de fundo da página como preto */
     color: #F6F6F6; /* Define a cor do texto como um tom de branco acinzentado */
@@ -22,7 +22,7 @@ body{
 
 /* Estilizando a seção de apresentação */
 .apresentacao{
-    margin: 10% 15%; /* Adiciona uma margem de 10% ao redor do elemento, afastando-o das bordas da tela */
+    padding: 8% 15%; /* Adiciona uma margem de 10% ao redor do elemento, afastando-o das bordas da tela */
     display: flex; /* Aplica o modelo de layout Flexbox, permitindo melhor organização dos elementos filhos */
     align-items: center; /* Alinha os elementos filhos verticalmente ao centro */
     justify-content: space-between; /* Distribui os elementos filhos com espaço entre eles */
@@ -83,4 +83,15 @@ body{
     background-color: white;
     color: black;
 
+}
+
+.rodape{
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
 }
