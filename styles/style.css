@@ -15,14 +15,27 @@ body{
     color: #F6F6F6; /* Define a cor do texto como um tom de branco acinzentado */
 }
 
-/* Estiliza os títulos que possuem a classe "titulo-destaque" */
-.titulo-destaque{
-    color: #22D4FD; /* Define a cor do texto como azul claro */
+.cabecalho__menu__link{
+    color: #22D4FD;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
 }
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
 
 /* Estilizando a seção de apresentação */
 .apresentacao{
-    padding: 8% 15%; /* Adiciona uma margem de 10% ao redor do elemento, afastando-o das bordas da tela */
+    padding: 5% 15%; /* Adiciona uma margem de 10% ao redor do elemento, afastando-o das bordas da tela */
     display: flex; /* Aplica o modelo de layout Flexbox, permitindo melhor organização dos elementos filhos */
     align-items: center; /* Alinha os elementos filhos verticalmente ao centro */
     justify-content: space-between; /* Distribui os elementos filhos com espaço entre eles */
@@ -40,6 +53,11 @@ body{
 .apresentacao__conteudo__titulo{
     font-size: 36px; /* Define o tamanho da fonte do título para 36 pixels */
     font-family: 'Krona One', sans-serif; /* Aplica a fonte "Krona One" ao título, garantindo um estilo mais destacado */
+}
+
+/* Estiliza os títulos que possuem a classe "titulo-destaque" */
+.titulo-destaque{
+    color: #22D4FD; /* Define a cor do texto como azul claro */
 }
 
 /* Estiliza o texto dentro da seção de apresentação */
@@ -80,7 +98,7 @@ body{
 }
 
 .apresentacao__links__link:hover{
-    background-color: white;
+    background-color: #EFEDF2;
     color: black;
 
 }
@@ -93,5 +111,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    
+    border: 2px solid #F6F6F6; 
 }
+
