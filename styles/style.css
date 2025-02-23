@@ -121,7 +121,6 @@ body{
     text-align: center;
     font-family: var(--font-secundaria);
     font-size: 24px;
-    font-weight: 400;
-    border: 2px solid var(--cor-secundaria); 
+    font-weight: 400; 
 }
 
