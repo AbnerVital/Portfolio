@@ -1,6 +1,12 @@
 /* Importa as fontes "Krona One" e "Montserrat" do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-tercearia: #22d4fd;
+}
+
 /* Resetando margens e preenchimentos de todos os elementos para evitar inconsistências entre navegadores */
 *{
     margin: 0; /* Remove a margem padrão de todos os elementos */
@@ -99,7 +105,7 @@ body{
 
 .apresentacao__links__link:hover{
     background-color: #EFEDF2;
-    color: black;
+    color: #000000;
 
 }
 
