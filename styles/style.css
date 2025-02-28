@@ -92,11 +92,11 @@ body{
     font-weight: 400;
 }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     border: 2px solid var(--cor-tercearia);
@@ -112,6 +112,10 @@ body{
     background-color: var(--cor-hover-background);
     color: var(--cor-hover-color);
 
+}
+
+.apresentacao__imagem{
+   width: 50%; 
 }
 
 .rodape{
