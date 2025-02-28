@@ -46,6 +46,7 @@ body{
 
 /* Estilizando a seção de apresentação */
 .apresentacao{
+    gap: 82px;
     padding: 5% 15%; /* Adiciona uma margem de 10% ao redor do elemento, afastando-o das bordas da tela */
     display: flex; /* Aplica o modelo de layout Flexbox, permitindo melhor organização dos elementos filhos */
     align-items: center; /* Alinha os elementos filhos verticalmente ao centro */
@@ -126,5 +127,19 @@ body{
     font-family: var(--font-secundaria);
     font-size: 1.5rem;
     font-weight: 400; 
+}
+
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
 }
 
