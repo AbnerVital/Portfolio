@@ -19,11 +19,21 @@ Projeto criado para demonstrar habilidades de desenvolvimento Front-end com um l
 
 ## 📂 Estrutura do Projeto
 ```
-📁 portfolio
-│-- 📄 index.html  # Página principal
-│-- 📄 style.css   # Estilização da página
-│-- 📄 README.md   # Documentação do projeto
-│-- 🖼️ imagem.png  # Imagem do perfil/apresentação
+📁 portfolio/
+├──📁assets/
+│   ├──🖼️ github.png
+│   ├──🖼️ Imagem.png
+│   ├──🖼️ instagram.png
+│   ├──🖼️ linkedin.png
+│   ├──🖼️ twitch.png
+│   ├──🖼️ twitter-novo.png
+│   └──🖼️ twitter.png
+├──📁styles/
+│   └──📄 style.css
+├──📄 about.html
+├──📄 index.html
+└──📄 README.md
+
 ```
 
 ## 🔥 Funcionalidades
