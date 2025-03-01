@@ -59,7 +59,7 @@ Projeto criado para demonstrar habilidades de desenvolvimento Front-end com um l
 
 ## 📞 Contato
 Caso tenha dúvidas ou sugestões, entre em contato:
-- **linkedIn**: [@seu_LinkedIn](https://www.linkedin.com/in/abner-vital-233730141/)
-- **GitHub**: [@seu_github](https://github.com/AbnerVital)
+- **linkedIn**: [@Abner Vital](https://www.linkedin.com/in/abner-vital-233730141/)
+- **GitHub**: [@Abner Vital](https://github.com/AbnerVital)
 
 🚀 **Vamos construir algo incrível juntos!**
